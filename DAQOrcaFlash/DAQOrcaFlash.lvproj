@@ -504,6 +504,11 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
@@ -544,6 +549,7 @@
 				<Item Name="IMAQ Rounding Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rounding Mode.ctl"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
 				<Item Name="IMAQ WindClose" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindClose"/>
+				<Item Name="IMAQ WindDisplayMapping" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDisplayMapping"/>
 				<Item Name="IMAQ WindDraw" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDraw"/>
 				<Item Name="IMAQ WindSetup" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindSetup"/>
 				<Item Name="IMAQ WindShow" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindShow"/>
@@ -622,6 +628,8 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="TIFFManagement.lvlib" Type="Library" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/TIFFManagement/TIFFManagement.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unescape XML.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Unescape XML.vi"/>
+				<Item Name="UnescapeChar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/UnescapeChar.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
@@ -639,14 +647,12 @@
 				<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/common/enumerations/x_y_z_enumeration.ctl"/>
 				<Item Name="XMLElement.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/XMLElement/XMLElement.lvclass"/>
 			</Item>
-			<Item Name="base64_fast_encode.vi" Type="VI" URL="/../Murmex/LabVIEW/Murmex/dependencies/base64_fast_encode.vi"/>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Get observers.vi" Type="VI" URL="/../Murmex/LabVIEW/Murmex/Murmex/Get observers.vi"/>
-			<Item Name="InspectMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/InspectMessage/InspectMessage.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -657,8 +663,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/Semicolon string to array.vi"/>
-			<Item Name="Set ID.vi" Type="VI" URL="/../Murmex/LabVIEW/Murmex/Murmex/Set ID.vi"/>
-			<Item Name="Set sender ID.vi" Type="VI" URL="/../Murmex/LabVIEW/Murmex/Message/Set sender ID.vi"/>
 			<Item Name="String array to semicolon.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
