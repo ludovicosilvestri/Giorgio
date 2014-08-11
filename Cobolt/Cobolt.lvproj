@@ -11,7 +11,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Cobolt.lvclass" Type="LVClass" URL="../Template/Cobolt.lvclass"/>
-		<Item Name="Murmex.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Murmex.lvclass"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -343,6 +342,7 @@
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
@@ -370,6 +370,7 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
+				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -389,11 +390,8 @@
 				<Item Name="A5AE8EA5BC9E882D19C00E2FAEC17B15" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A5AE8EA5BC9E882D19C00E2FAEC17B15"/>
 				<Item Name="AF1B129D19B473CA26077C080791F7E9" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/AF1B129D19B473CA26077C080791F7E9"/>
 				<Item Name="B784A0CA8602FFCF42BD6BF3538D103F" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/B784A0CA8602FFCF42BD6BF3538D103F"/>
-				<Item Name="base64_fast_decode.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/base64_fast_decode.vi"/>
-				<Item Name="base64_fast_encode.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/base64_fast_encode.vi"/>
 				<Item Name="BE28EB57592693D3FB5C87E0245621B7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/BE28EB57592693D3FB5C87E0245621B7"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Boolean to enabled state.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/Boolean to enabled state.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
 				<Item Name="CAEDCE53E5A5DDABE85F91088296A0E8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CAEDCE53E5A5DDABE85F91088296A0E8"/>
@@ -475,16 +473,6 @@
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 F function__ogtk.vi"/>
-				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 FGHI functions__ogtk.vi"/>
-				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 G function__ogtk.vi"/>
-				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 H function__ogtk.vi"/>
-				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 I function__ogtk.vi"/>
-				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 Message Digest (Binary String)__ogtk.vi"/>
-				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
-				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 Padding__ogtk.vi"/>
-				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 ti__ogtk.vi"/>
-				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/MD5 Unrecoverable character padding__ogtk.vi"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
@@ -517,9 +505,12 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="Replace comma by dot.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/Replace comma by dot.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -531,12 +522,12 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
-				<Item Name="waveform_type_enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex/waveform_type_enum.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
@@ -548,41 +539,24 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="write_settings_file_dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/Murmex/dependencies/write_settings_file_dialog.vi"/>
 			</Item>
-			<Item Name="Add or replace parameter.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Message/Add or replace parameter.vi"/>
-			<Item Name="Clear log.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Clear log.vi"/>
-			<Item Name="Close executable.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Close executable.vi"/>
-			<Item Name="command_enum.ctl" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/command_enum.ctl"/>
-			<Item Name="ConfigureMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/ConfigureMessage/ConfigureMessage.lvclass"/>
-			<Item Name="Create from command.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Message/Create from command.vi"/>
-			<Item Name="Generic configuration checker.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Generic configuration checker.vi"/>
-			<Item Name="Generic configuration reader.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Generic configuration reader.vi"/>
-			<Item Name="Generic configuration writer.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Generic configuration writer.vi"/>
-			<Item Name="GenericMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/GenericMessage/GenericMessage.lvclass"/>
-			<Item Name="Get component name.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Get component name.vi"/>
-			<Item Name="Get ID.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Get ID.vi"/>
-			<Item Name="Handle messages.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Handle messages.vi"/>
-			<Item Name="InitialiseMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/InitialiseMessage/InitialiseMessage.lvclass"/>
-			<Item Name="Look up setting.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/UpdateMessage/Look up setting.vi"/>
+			<Item Name="ConfigureMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/ConfigureMessage/ConfigureMessage.lvclass"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GenericMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/GenericMessage/GenericMessage.lvclass"/>
+			<Item Name="InitialiseMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/InitialiseMessage/InitialiseMessage.lvclass"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Send message internally.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Send message internally.vi"/>
-			<Item Name="Send terminate on error.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Send terminate on error.vi"/>
-			<Item Name="Send.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Send.vi"/>
-			<Item Name="Set configure at initialise.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Set configure at initialise.vi"/>
-			<Item Name="Set generic command.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/GenericMessage/Set generic command.vi"/>
-			<Item Name="Set log reference.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Set log reference.vi"/>
-			<Item Name="Set up events.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Set up events.vi"/>
-			<Item Name="Set up ID.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Set up ID.vi"/>
-			<Item Name="Set VI reference.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Set VI reference.vi"/>
-			<Item Name="StartMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/StartMessage/StartMessage.lvclass"/>
-			<Item Name="StopMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/StopMessage/StopMessage.lvclass"/>
-			<Item Name="TerminateMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/TerminateMessage/TerminateMessage.lvclass"/>
-			<Item Name="Update target.vi" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/Update target.vi"/>
-			<Item Name="update_cluster.ctl" Type="VI" URL="../../../../../Murmex/LabVIEW/Murmex/Murmex/update_cluster.ctl"/>
-			<Item Name="UpdateMessage.lvclass" Type="LVClass" URL="../../../../../Murmex/LabVIEW/Murmex/UpdateMessage/UpdateMessage.lvclass"/>
+			<Item Name="StartMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/StartMessage/StartMessage.lvclass"/>
+			<Item Name="StopMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/StopMessage/StopMessage.lvclass"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TerminateMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/TerminateMessage/TerminateMessage.lvclass"/>
+			<Item Name="UpdateMessage.lvclass" Type="LVClass" URL="/../Murmex/LabVIEW/Murmex/UpdateMessage/UpdateMessage.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
