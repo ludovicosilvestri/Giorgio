@@ -558,6 +558,47 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="stagesSPIM" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{227FE841-851B-4A79-99BC-D5694A411A28}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{68759C72-65C4-4445-897E-6046CA941FF6}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{90868153-0969-41A6-92D1-B28D71BC2594}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">stagesSPIM</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DA829A29-AF20-4613-A02A-C5D1BE332FA9}</Property>
+				<Property Name="Destination[0].destName" Type="Str">stagesSPIM.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/stagesSPIM.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC519CE4-2FCD-419B-A9A4-BE9DABA58A28}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">stagesSPIM</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{98643BDA-8CC8-4320-8852-F262D9644B54}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">stagesSPIM.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
