@@ -349,7 +349,6 @@
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="tm_closecamera.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_closecamera.vi"/>
 				<Item Name="tm_closedcimgfile.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/dcimg/tm_closedcimgfile.vi"/>
 				<Item Name="tm_deinitialize.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_deinitialize.vi"/>
@@ -641,11 +640,9 @@
 				<Item Name="XMLElement.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/XMLElement/XMLElement.lvclass"/>
 			</Item>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
-			<Item Name="create_random_string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get observers.vi" Type="VI" URL="/../Murmex/LabVIEW/Murmex/Murmex/Get observers.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -655,59 +652,56 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
+			<Item Name="String array to semicolon.vi" Type="VI" URL="../../dependencies/utilities/String array to semicolon.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="tmcamcon.dll" Type="Document" URL="tmcamcon.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="DAQMH121119OrcaFlash" Type="EXE">
+			<Item Name="DAQOrcaFlash" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{F56EB1EC-8D75-4BEE-87BE-F69C709192F8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8F78083F-C22B-487F-8BF7-ADF964C1048D}</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0BBC30D1-8837-4A62-8C52-6DB1EE9FD2BA}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DAQMH121119OrcaFlash</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/XP/Dropbox/Executables/orca</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/DELL/Documents/Distrio/executables/orca</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{15B4991E-7CBF-469B-B953-F243E1FCA7C2}</Property>
-				<Property Name="Destination[0].destName" Type="Str">DAQMH121119OrcaFlash.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/XP/Dropbox/Executables/orca/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DAQOrcaFlash.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/orca/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/XP/Dropbox/Executables/orca/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/orca/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{4B0AE2B0-F51C-4B82-B276-ACA1F0388AE4}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/icon/orca.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D7CFF2E4-E068-446E-BF44-33B455F430B5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DAQMH121119OrcaFlash</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">18</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DAQOrcaFlash</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">19</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">DAQMH121119OrcaFlash</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 Marcel van 't Hoff</Property>
-				<Property Name="TgtF_productName" Type="Str">DAQMH121119OrcaFlash</Property>
+				<Property Name="TgtF_internalName" Type="Str">DAQOrcaFlash</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013</Property>
+				<Property Name="TgtF_productName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4D27A417-C0C2-401C-8860-2B10BB61FF73}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DAQMH121119OrcaFlash.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DAQOrcaFlash.exe</Property>
 			</Item>
 		</Item>
 	</Item>
