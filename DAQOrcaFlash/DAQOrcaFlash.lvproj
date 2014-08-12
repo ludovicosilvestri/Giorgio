@@ -640,7 +640,6 @@
 				<Item Name="XMLElement.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/XMLElement/XMLElement.lvclass"/>
 			</Item>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
-			<Item Name="create_random_string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -653,7 +652,8 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="String array to semicolon.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/String array to semicolon.vi"/>
+			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
+			<Item Name="String array to semicolon.vi" Type="VI" URL="../../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
