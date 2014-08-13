@@ -19,6 +19,7 @@
 		<Item Name="TestDAQOrcaFlash.vi" Type="VI" URL="../TestDAQOrcaFlash.vi"/>
 		<Item Name="DAQOrcaFlash.lvclass" Type="LVClass" URL="../DAQOrcaFlash/DAQOrcaFlash.lvclass"/>
 		<Item Name="Get_camera_properties.vi" Type="VI" URL="../DAQOrcaFlash/Get_camera_properties.vi"/>
+		<Item Name="close shutter.vi" Type="VI" URL="../../dependencies/utilities/close shutter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
