@@ -363,6 +363,7 @@
 				<Item Name="tm_getframe_a.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_getframe_a.vi"/>
 				<Item Name="tm_getfunctionlist.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_getfunctionlist.vi"/>
 				<Item Name="tm_getparameter.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_getparameter.vi"/>
+				<Item Name="tm_getpropertyvalue.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/advanced/tm_getpropertyvalue.vi"/>
 				<Item Name="tm_getrange.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_getrange.vi"/>
 				<Item Name="tm_getrecorderstatus.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/dcimg/tm_getrecorderstatus.vi"/>
 				<Item Name="tm_initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_initialize.vi"/>
@@ -393,6 +394,7 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -412,7 +414,6 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
-				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -641,6 +642,7 @@
 				<Item Name="XMLElement.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Zen Informatics/Zen Image/XMLElement/XMLElement.lvclass"/>
 			</Item>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/bool_to_enable_state.vi"/>
+			<Item Name="create_random_string.vi" Type="VI" URL="../../../Lucid/LabVIEW/dependencies/utilities/create_random_string.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -653,6 +655,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Semicolon string to array.vi" Type="VI" URL="../../dependencies/utilities/Semicolon string to array.vi"/>
 			<Item Name="String array to semicolon.vi" Type="VI" URL="../../dependencies/utilities/String array to semicolon.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
