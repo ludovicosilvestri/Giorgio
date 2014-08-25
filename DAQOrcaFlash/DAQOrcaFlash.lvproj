@@ -20,6 +20,8 @@
 		<Item Name="DAQOrcaFlash.lvclass" Type="LVClass" URL="../DAQOrcaFlash/DAQOrcaFlash.lvclass"/>
 		<Item Name="Get_camera_properties.vi" Type="VI" URL="../DAQOrcaFlash/Get_camera_properties.vi"/>
 		<Item Name="close shutter.vi" Type="VI" URL="../../dependencies/utilities/close shutter.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../FileTransfer/Main.vi"/>
+		<Item Name="big.ico" Type="Document" URL="../FileTransfer/big.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -414,6 +416,7 @@
 				<Item Name="49E25771A6D7FE46E41FFF8F95331682" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/49E25771A6D7FE46E41FFF8F95331682"/>
 				<Item Name="71A80A7B8E73AAC85779E582AE1BEC41" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/71A80A7B8E73AAC85779E582AE1BEC41"/>
 				<Item Name="80F2F4187F1C02C9566D295AAD2B4B46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/80F2F4187F1C02C9566D295AAD2B4B46"/>
+				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="150C0424A369B9CBD49458FAC4669DBC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/150C0424A369B9CBD49458FAC4669DBC"/>
 				<Item Name="183A6C14B09290143C207BDCD53796A3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/183A6C14B09290143C207BDCD53796A3"/>
 				<Item Name="245A9BE04D02CB35AC98ABBD3F6F0A97" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/245A9BE04D02CB35AC98ABBD3F6F0A97"/>
@@ -646,6 +649,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../dependencies/utilities/Give log reference if debugging.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -688,7 +692,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/icon/orca.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7CFF2E4-E068-446E-BF44-33B455F430B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0953FAD2-C454-4404-A8F4-F747BCA827E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DAQOrcaFlash.lvclass/Main.vi</Property>
@@ -698,13 +702,52 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DAQOrcaFlash</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">22</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">24</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013</Property>
 				<Property Name="TgtF_productName" Type="Str">DAQOrcaFlash</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4D27A417-C0C2-401C-8860-2B10BB61FF73}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DAQOrcaFlash.exe</Property>
+			</Item>
+			<Item Name="FileTransfer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C6C4F49B-15AA-4761-B140-3B7597E8EC02}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5B3DD7F5-7725-4F9C-A7F3-7AE6BFADD21B}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LENS.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C9F11826-9F85-452E-A660-AFB3E16BB592}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FileTransfer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/DELL/Documents/Distrio/executables/filetransfer</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5EF3AE95-CFA4-4720-A8A3-9CDFCB3CAEE8}</Property>
+				<Property Name="Destination[0].destName" Type="Str">FileTransfer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/filetransfer/FileTransfer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/filetransfer/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/big.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0953FAD2-C454-4404-A8F4-F747BCA827E2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FileTransfer</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">FileTransfer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">FileTransfer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{AB5433F0-425F-4561-A4E1-7A9B561F69CD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FileTransfer.exe</Property>
 			</Item>
 		</Item>
 	</Item>
