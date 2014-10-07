@@ -19,8 +19,10 @@
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="CameraCheckData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraCheckData.vi"/>
 				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
 				<Item Name="CameraExperiment.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraExperiment.vi"/>
+				<Item Name="CameraGetData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetData.vi"/>
 				<Item Name="CameraGetDataDim.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetDataDim.vi"/>
 				<Item Name="CameraInitialize.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraInitialize.vi"/>
 				<Item Name="CameraOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOpen.vi"/>
@@ -193,6 +195,7 @@
 				<Item Name="ImageDestroy.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageDestroy.vi"/>
 				<Item Name="ImageGetArrayF32.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayF32.vi"/>
 				<Item Name="ImageGetArrayU8.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU8.vi"/>
+				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
 				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
@@ -552,9 +555,6 @@
 			</Item>
 			<Item Name="ADC_gain.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/ADC_gain.ctl"/>
 			<Item Name="Clearing_mode.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/Clearing_mode.ctl"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Image_type.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/Image_type.ctl"/>
 			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
