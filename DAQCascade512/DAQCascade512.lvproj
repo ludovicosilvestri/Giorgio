@@ -555,6 +555,7 @@
 			</Item>
 			<Item Name="ADC_gain.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/ADC_gain.ctl"/>
 			<Item Name="Clearing_mode.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/Clearing_mode.ctl"/>
+			<Item Name="ExSubNframeColMultiImageFast.vi" Type="VI" URL="../../../../../Users/Public/Documents/SIToolkit/LabVIEW/ExamplesXX_3_0_10_0/CoolSnap (including 1394)/ExSubNframeColMultiImageFast.vi"/>
 			<Item Name="Image_type.ctl" Type="VI" URL="../../../OLD_apparatus_VI/VI/Image_type.ctl"/>
 			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
