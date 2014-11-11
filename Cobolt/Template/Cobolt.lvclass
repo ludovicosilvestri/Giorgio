@@ -537,6 +537,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
+	<Item Name="ini" Type="Folder">
+		<Item Name="Cobolt.ini" Type="Document" URL="../Cobolt.ini"/>
+	</Item>
 	<Item Name="tools" Type="Folder">
 		<Item Name="VISA" Type="Folder">
 			<Item Name="VISA close.vi" Type="VI" URL="../VISA close.vi">
