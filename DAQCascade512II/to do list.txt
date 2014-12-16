@@ -1,0 +1,2 @@
+Implement ALL parameters of the camera into the configuration
+Add the Update method and follow the online documentation
