@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="DAQCascade512II.lvclass" Type="LVClass" URL="../DAQCascade512II.lvclass"/>
+		<Item Name="DAQCascade512II.lvclass" Type="LVClass" URL="../DAQCascade512II/DAQCascade512II.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -350,24 +350,19 @@
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="InitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/InitToolkit.vi"/>
+				<Item Name="MergeErrorOut.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/MergeErrorOut.vi"/>
 				<Item Name="CameraOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOpen.vi"/>
 				<Item Name="CameraSetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetTemp.vi"/>
 				<Item Name="CameraCleans.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraCleans.vi"/>
 				<Item Name="CameraShutter.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraShutter.vi"/>
+				<Item Name="CameraTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraTrigger.vi"/>
 				<Item Name="CameraExperiment.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraExperiment.vi"/>
 				<Item Name="CameraInitialize.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraInitialize.vi"/>
-				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
-				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
-				<Item Name="ImageDestroy.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageDestroy.vi"/>
-				<Item Name="UninitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/UninitToolkit.vi"/>
 				<Item Name="CameraGetDataDim.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetDataDim.vi"/>
 				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
-				<Item Name="CameraTrigger.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraTrigger.vi"/>
-				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
 				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
-				<Item Name="CameraROI.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraROI.vi"/>
+				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
 				<Item Name="DisplayOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayOpen.vi"/>
 				<Item Name="FileOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileOpen.vi"/>
 				<Item Name="CameraStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStart.vi"/>
@@ -375,8 +370,14 @@
 				<Item Name="CameraGetData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetData.vi"/>
 				<Item Name="DisplayImage.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayImage.vi"/>
 				<Item Name="FileSaveData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileSaveData.vi"/>
+				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
 				<Item Name="FileClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileClose.vi"/>
 				<Item Name="DisplayClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayClose.vi"/>
+				<Item Name="ImageDestroy.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageDestroy.vi"/>
+				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
+				<Item Name="UninitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/UninitToolkit.vi"/>
+				<Item Name="CameraROI.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraROI.vi"/>
+				<Item Name="CameraGetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetTemp.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -511,7 +512,6 @@
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Queue/Queue.lvclass"/>
-				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
@@ -560,6 +560,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
+				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
