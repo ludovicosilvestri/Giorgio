@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DAQCascade512II.lvclass" Type="LVClass" URL="../DAQCascade512II/DAQCascade512II.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="ref nod test.vi" Type="VI" URL="../ref nod test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -368,7 +369,6 @@
 				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
 				<Item Name="UninitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/UninitToolkit.vi"/>
 				<Item Name="CameraROI.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraROI.vi"/>
-				<Item Name="CameraADC.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADC.vi"/>
 				<Item Name="ToolKitIsError.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/ToolKitIsError.vi"/>
 				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
 				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
