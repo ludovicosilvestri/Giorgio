@@ -360,24 +360,21 @@
 				<Item Name="CameraExperiment.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraExperiment.vi"/>
 				<Item Name="CameraInitialize.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraInitialize.vi"/>
 				<Item Name="CameraGetDataDim.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetDataDim.vi"/>
-				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
-				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
-				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
-				<Item Name="DisplayOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayOpen.vi"/>
-				<Item Name="FileOpen.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileOpen.vi"/>
 				<Item Name="CameraStart.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStart.vi"/>
 				<Item Name="CameraCheckData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraCheckData.vi"/>
 				<Item Name="CameraGetData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetData.vi"/>
-				<Item Name="DisplayImage.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayImage.vi"/>
-				<Item Name="FileSaveData.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileSaveData.vi"/>
 				<Item Name="CameraStop.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraStop.vi"/>
-				<Item Name="FileClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKFile.llb/FileClose.vi"/>
-				<Item Name="DisplayClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKDisplay.llb/DisplayClose.vi"/>
 				<Item Name="ImageDestroy.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageDestroy.vi"/>
 				<Item Name="CameraClose.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraClose.vi"/>
 				<Item Name="UninitToolkit.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/UninitToolkit.vi"/>
 				<Item Name="CameraROI.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraROI.vi"/>
-				<Item Name="CameraGetTemp.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraGetTemp.vi"/>
+				<Item Name="CameraADC.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADC.vi"/>
+				<Item Name="ToolKitIsError.vi" Type="VI" URL="/&lt;userlib&gt;/SITKGeneral.llb/ToolKitIsError.vi"/>
+				<Item Name="ImageGetDimension.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetDimension.vi"/>
+				<Item Name="ImageGetArrayU16.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageGetArrayU16.vi"/>
+				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
+				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
+				<Item Name="CameraADCset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCset.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -561,6 +558,20 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
 				<Item Name="RabbitMQ.Client.dll" Type="Document" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/RabbitMQ.Client.dll"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ WindDraw" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDraw"/>
+				<Item Name="IMAQ WindClose" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindClose"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -569,6 +580,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LabViewLayer.dll" Type="Document" URL="LabViewLayer.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
