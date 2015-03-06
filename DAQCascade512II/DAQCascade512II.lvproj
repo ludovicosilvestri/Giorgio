@@ -375,6 +375,7 @@
 				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
 				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
 				<Item Name="CameraADCset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCset.vi"/>
+				<Item Name="CameraADCget.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCget.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -572,6 +573,8 @@
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
