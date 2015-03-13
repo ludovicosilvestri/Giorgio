@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+    <IncludePath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -56,15 +56,15 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LABTIFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <CompileAsManaged>false</CompileAsManaged>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib\libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib\libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -76,15 +76,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LABTIFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Users\Ludo\Programming\Tests\TIFFManagement_test\LabTIFF\VisualCPP\LabTIFF\lib\libtiff.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\lib\libtiff.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
