@@ -22,6 +22,18 @@ __declspec(dllexport) int CloseTIFFFile(int*& FileRef)
 	return 0;
 }
 
+__declspec(dllexport) int GetNumberOfPages(int*& FileRef, int& NumberOfPages)
+{
+	TIFF *tif = (TIFF*)FileRef;
+	NumberOfPages = 0;
+	do
+	{
+		NumberOfPages++;
+	} while (TIFFReadDirectory(tif));
+
+	return 0;
+}
+
 __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 ImageHeight, uint32 ImageWidth, char* ImageType)
 {
 	uint16 SamplesPerPixel, BitsPerSample;

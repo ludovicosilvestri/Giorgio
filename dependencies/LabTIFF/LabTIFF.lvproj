@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="Append Page.vi" Type="VI" URL="../LabTIFF/Append Page.vi"/>
 		<Item Name="CloseTIFF.vi" Type="VI" URL="../LabTIFF/CloseTIFF.vi"/>
+		<Item Name="Get number of pages.vi" Type="VI" URL="../LabTIFF/Get number of pages.vi"/>
 		<Item Name="OpenTIFF.vi" Type="VI" URL="../LabTIFF/OpenTIFF.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../LabTIFF/Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
