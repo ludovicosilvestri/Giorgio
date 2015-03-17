@@ -14,6 +14,7 @@
 		<Item Name="LabTIFF" Type="Folder" URL="../../dependencies/LabTIFF/LabTIFF">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="big.ico" Type="Document" URL="../../DAQOrcaFlash/FileTransfer/big.ico"/>
 		<Item Name="TomoConversion.lvclass" Type="LVClass" URL="../TomoConversion/TomoConversion.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -570,6 +571,46 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D3C28519-D67E-4A30-81AE-3EC50C8D7EF8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{21291BFE-0B61-437C-895E-CD487F2C006A}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BE91B86A-DBE5-4FF0-87C3-077FE3FF3A5B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Ludo/Documents/Distrio/Executables/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5D6D1880-CC41-4EE3-801B-7A23CFA3A0EC}</Property>
+				<Property Name="Destination[0].destName" Type="Str">TomoConversion.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Ludo/Documents/Distrio/Executables/NI_AB_PROJECTNAME/TomoConversion.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Ludo/Documents/Distrio/Executables/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/big.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6484CF24-F8D9-42A4-9461-D6A32423CCF3}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TomoConversion.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS - University of Florence</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS - University of Florence</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{54D6C324-BB07-4839-9888-B54425FBDC6E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TomoConversion.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

@@ -139,5 +139,30 @@ __declspec(dllexport) int AppendPage(int*& FileRef, double* DataArray, uint32 Im
 	
 	TIFFWriteDirectory(tif);
 	
+	if (!strcmp(ImageType, "uint8"))
+	{
+		delete[] DataArray_uint8;
+	}
+	else if (!strcmp(ImageType, "uint16"))
+	{
+		delete[] DataArray_uint16;
+	}
+	else if (!strcmp(ImageType, "int16"))
+	{
+		delete[] DataArray_int16;
+	}
+	else if (!strcmp(ImageType, "RGBA32"))
+	{
+		delete[] DataArray_RGBA32;
+	}
+	else if (!strcmp(ImageType, "RGBA64"))
+	{
+		delete[] DataArray_RGBA64;
+	}
+	else if (!strcmp(ImageType, "float32"))
+	{
+		delete [] DataArray_float32;
+	}
+
 	return 0;
 }

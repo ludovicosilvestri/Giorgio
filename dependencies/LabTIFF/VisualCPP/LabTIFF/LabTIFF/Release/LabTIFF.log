@@ -1,4 +1,4 @@
-﻿Compilazione avviata 14/03/2015 15:18:45.
+﻿Compilazione avviata 17/03/2015 11:19:32.
      1>Progetto "C:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\LabTIFF\LabTIFF.vcxproj" sul nodo 2 (destinazioni: Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Ludo\Programming\OpenLucid\dependencies\LabTIFF\VisualCPP\LabTIFF\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LABTIFF_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\LabTIFF.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LabTIFF.cpp
@@ -64,4 +64,4 @@
 
 Compilazione completata.
 
-Tempo trascorso 00:00:06.59
+Tempo trascorso 00:00:06.34
