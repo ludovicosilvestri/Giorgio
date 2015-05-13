@@ -376,7 +376,6 @@
 				<Item Name="ImageCreate.vi" Type="VI" URL="/&lt;userlib&gt;/SITKImage.llb/ImageCreate.vi"/>
 				<Item Name="CameraSetVar.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraSetVar.vi"/>
 				<Item Name="CameraADCset.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCset.vi"/>
-				<Item Name="CameraADCget.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraADCget.vi"/>
 				<Item Name="CameraOutputDevice.vi" Type="VI" URL="/&lt;userlib&gt;/SITKCamera.llb/CameraOutputDevice.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
