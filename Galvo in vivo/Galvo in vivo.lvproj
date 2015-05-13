@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Galvo in vivo.lvclass" Type="LVClass" URL="../Galvo in vivo.lvclass"/>
+		<Item Name="Galvo in vivo.lvclass" Type="LVClass" URL="../Galvo in vivo/Galvo in vivo.lvclass"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
