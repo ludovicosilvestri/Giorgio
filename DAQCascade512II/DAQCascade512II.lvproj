@@ -15,6 +15,7 @@
 		<Item Name="TTL generator.vi" Type="VI" URL="../TTL generator.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Get images from queue.vi" Type="VI" URL="../Get images from queue.vi"/>
+		<Item Name="camera.ico" Type="Document" URL="../DAQCascade512II/camera.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
