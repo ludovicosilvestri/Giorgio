@@ -545,6 +545,9 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Give log reference if debugging.vi" Type="VI" URL="../../AOTF/AOTF/Give log reference if debugging.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -564,31 +567,68 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/utente/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{714C1761-FAB8-4D74-9F73-F29473EE9C61}</Property>
 				<Property Name="Destination[0].destName" Type="Str">AOTF.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/utente/Documents/Distrio/executables/NI_AB_PROJECTNAME/AOTF.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/AOTF.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/utente/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AOTF.lvclass/icon/cameleon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F572D144-1005-4AD8-8D44-E15A3D5A8909}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F477C4A-08A2-4404-8DBB-2695A44FCF65}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AOTF.lvclass/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AOTF.lvclass/Accessors</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/AOTF.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/AOTF.lvclass/Action Methods</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AOTF.lvclass/Configuration</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/AOTF.lvclass/icon</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AOTF.lvclass/Tools</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/AOTF.lvclass/Type Definitions</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/AOTF.lvclass/basic_serial_write_and_read.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">AOTF</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">1</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">3</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">AOTF</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 LENS</Property>
