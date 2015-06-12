@@ -1,0 +1,2 @@
+C:\DATA\Programming\Giorgio\DAQCascade512II\save to drive\Users\User\Desktop\started acquisition.ctl (DAQCascade512II.lvclass:started acquisition.ctl)
+    - The class expected to be at "C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\DAQCascade512II.lvclass" was loaded from "C:\DATA\Programming\Giorgio\DAQCascade512II\save to drive\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\DAQCascade512II.lvclass".

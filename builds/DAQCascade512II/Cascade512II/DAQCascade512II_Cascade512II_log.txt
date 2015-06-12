@@ -1,0 +1,591 @@
+03/06/2015 14:51:10
+[General]
+Project: C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II.lvproj
+Target: My Computer
+Build Specification: Cascade512II
+OS: Windows NT 6.1
+
+[Source Files]
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\DAQCascade512II.lvclass	03/06/2015 12:15:03	1.0.0.31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex.lvlib	08/09/2014 16:21:04	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Connection\Connection.lvclass	15/09/2014 12:11:02	1.0.0.6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\Channel.lvclass	15/09/2014 12:11:02	1.0.0.4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Exchange\Exchange.lvclass	15/09/2014 12:11:02	1.0.0.4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Queue.lvclass	15/09/2014 12:11:02	1.0.0.6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\lvfile.llb\NI_FileType.lvlib	20/12/2012 07:13:37	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\LVLibp\NI_PackedLibraryUtility.lvlib	19/12/2012 23:13:34	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\NI_Gmath.lvlib	19/12/2012 20:41:38	12.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\xml\NI_XML.lvlib	19/12/2012 20:51:02	6.1.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InitialiseMessage\InitialiseMessage.lvclass	08/09/2014 16:20:40	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Message.lvclass	08/09/2014 16:20:54	1.0.0.2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Murmex.lvclass	14/05/2015 16:13:57	1.0.0.7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\AcknowledgeMessage\AcknowledgeMessage.lvclass	08/09/2014 16:20:58	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\FetchMessage.lvclass	08/09/2014 16:20:50	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\GenericMessage\GenericMessage.lvclass	08/09/2014 16:20:38	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\UpdateMessage.lvclass	08/09/2014 16:20:48	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\InformMessage.lvclass	08/09/2014 16:20:58	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\TerminateMessage\TerminateMessage.lvclass	08/09/2014 16:20:44	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InspectMessage\InspectMessage.lvclass	08/09/2014 16:21:00	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ResetMessage\ResetMessage.lvclass	08/09/2014 16:20:58	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ProceedMessage\ProceedMessage.lvclass	08/09/2014 16:21:00	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StartMessage\StartMessage.lvclass	08/09/2014 16:20:44	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StopMessage\StopMessage.lvclass	08/09/2014 16:20:38	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ConfigureMessage\ConfigureMessage.lvclass	08/09/2014 16:20:40	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2012\LabViewLayer.dll	25/07/2008 10:20:52
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II.aliases	03/06/2015 14:48:25
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Cascade512II.ico	26/05/2015 15:28:14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\RabbitMQ.Client.dll	11/08/2014 12:39:24
+C:\Program Files\National Instruments\LabVIEW 2012\resource\lvanlys.dll	19/12/2012 13:55:12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\zip\lvzlib.dll	07/08/2014 18:08:34
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Event type enumerations.ctl	08/09/2014 16:19:42	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\command_enum.ctl	08/09/2014 16:19:36	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\data_compression_enum.ctl	08/09/2014 16:19:42	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Extract value from XML.vi	08/09/2014 16:19:40	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\status_enum.ctl	08/09/2014 16:19:42	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\status_cluster.ctl	08/09/2014 16:19:42	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Trim Whitespace.vi	08/09/2014 16:19:38	88
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	20/12/2012 00:58:45	34
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	20/12/2012 03:02:10	96
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\LVClass\Get LV Class Path.vi	19/12/2012 17:39:42	32
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get component name.vi	08/09/2014 16:19:46	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Extract value from XML string.vi	08/09/2014 16:19:40	51
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Create XML tag.vi	08/09/2014 16:19:40	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StartMessage\run mode enum.ctl	08/09/2014 16:19:44	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Event cluster.ctl	08/09/2014 16:19:42	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\update_cluster.ctl	08/09/2014 16:19:38	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Image Controls.llb\IMAQ Image.ctl	21/06/2014 04:27:53	18
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKGeneral.llb\MergeErrorOut.vi	22/09/2014 11:31:59	7
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraSetTemp.vi	22/09/2014 11:31:55	10
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraSetVar.vi	22/09/2014 11:31:55	11
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraCleans.vi	22/09/2014 11:31:55	8
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraShutter.vi	22/09/2014 11:31:55	18
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraTrigger.vi	22/09/2014 11:31:55	13
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraADCset.vi	22/09/2014 11:31:55	8
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraExperiment.vi	22/09/2014 11:31:59	22
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraInitialize.vi	22/09/2014 11:31:55	14
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKGeneral.llb\ToolKitIsError.vi	23/10/2014 17:17:16	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Files.llb\IMAQ Write TIFF File 2	21/06/2014 04:31:41	103
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Basics.llb\IMAQ ArrayToImage	25/02/2015 13:07:28	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Image Controls.llb\Image Type	21/06/2014 04:27:53	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Display.llb\IMAQ WindDraw	21/06/2014 04:31:39	58
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Basics.llb\IMAQ Create	21/06/2014 04:31:23	81
+C:\DATA\Programming\Giorgio\DAQCascade512II\Get images from queue.vi	26/05/2015 12:48:22	18
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraGetData.vi	22/09/2014 11:31:55	10
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraCheckData.vi	22/09/2014 18:27:48	17
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraOpen.vi	22/09/2014 11:31:55	26
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKImage.llb\ImageGetDimension.vi	22/09/2014 11:31:58	13
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKImage.llb\ImageGetArrayU16.vi	22/09/2014 11:33:37	13
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraROI.vi	22/09/2014 18:27:48	11
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraGetDataDim.vi	22/09/2014 11:31:55	17
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraClose.vi	22/09/2014 11:31:55	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Basics.llb\IMAQ Dispose	21/06/2014 04:31:24	45
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKGeneral.llb\UninitToolkit.vi	22/09/2014 11:31:55	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\vision\Display.llb\IMAQ WindClose	21/06/2014 04:31:39	58
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Clear Errors.vi	20/12/2012 00:58:47	16
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKImage.llb\ImageDestroy.vi	22/09/2014 11:31:55	20
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraStop.vi	22/09/2014 11:31:55	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\TerminateMessage\TerminateMessage class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKCamera.llb\CameraStart.vi	22/09/2014 11:31:55	13
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKImage.llb\ImageCreate.vi	22/09/2014 11:31:55	20
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\SITKGeneral.llb\InitToolkit.vi	22/09/2014 11:31:55	22
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\configuration cluster.ctl	03/06/2015 12:27:44	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Type Descriptor.ctl	08/09/2014 16:19:38	11
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Waveform Subtype Enum__ogtk.ctl	18/08/2014 17:41:10	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\express\express shared\ex_CorrectErrorChain.vi	19/12/2012 16:58:50	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\express\express input\FileDialogBlock.llb\subFile Dialog.vi	20/12/2012 01:11:07	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\write_settings_file_dialog.vi	08/09/2014 16:19:38	38
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\libraryn.llb\Get File Extension.vi	20/12/2012 03:02:47	16
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Type Descriptor Enumeration__ogtk.ctl	18/08/2014 17:41:10	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\DialogType.ctl	20/12/2012 00:58:47	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\file.llb\Write Spreadsheet String.vi	20/12/2012 04:41:47	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\sysdir.llb\System Directory Type.ctl	20/12/2012 06:01:27	4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\sysdir.llb\Get System Directory.vi	20/12/2012 06:01:40	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 Unrecoverable character padding__ogtk.vi	08/09/2014 16:19:38	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 Padding__ogtk.vi	08/09/2014 16:19:38	49
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 ti__ogtk.vi	08/09/2014 16:19:38	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 F function__ogtk.vi	08/09/2014 16:19:38	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 G function__ogtk.vi	08/09/2014 16:19:38	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 H function__ogtk.vi	08/09/2014 16:19:38	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 I function__ogtk.vi	08/09/2014 16:19:38	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 FGHI functions__ogtk.vi	08/09/2014 16:19:38	33
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 Message Digest (Binary String)__ogtk.vi	08/09/2014 16:19:38	106
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\md5 conversion\MD5 Message Digest (Hexadecimal String)__ogtk.vi	08/09/2014 16:19:38	109
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Platform\system.llb\System Exec.vi	20/12/2012 04:51:18	95
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\observe_mode_enum.ctl	08/09/2014 16:19:40	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Waveform\DTblOps.llb\DTbl Digital Size.vi	20/12/2012 03:35:23	54
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\data_type_enum.ctl	08/09/2014 16:19:38	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Waveform\DTblOps.llb\DTbl Digital to Binary U32.vi	20/12/2012 06:50:26	23
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Waveform\DWDTOps.llb\DWDT Digital to Binary U32.vi	20/12/2012 06:50:30	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\waveform_type_enum.ctl	08/09/2014 16:19:40	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Last PString.vi	08/09/2014 16:19:38	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get PString.vi	08/09/2014 16:19:40	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Type Descriptor Enumeration.ctl	08/09/2014 16:19:38	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Data Name.vi	08/09/2014 16:19:40	51
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Variant Attributes.vi	08/09/2014 16:19:38	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Type Descriptor Header.ctl	08/09/2014 16:19:38	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Header from TD.vi	08/09/2014 16:19:40	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Data Name from TD.vi	08/09/2014 16:19:40	26
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Physical Units__ogtk.ctl	18/08/2014 17:41:10	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\dlg_ctls.llb\Space Constant.vi	20/12/2012 01:10:13	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\Channel data cluster.ctl	08/09/2014 16:19:40	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Flattened string cluster.ctl	08/09/2014 16:19:42	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Serialise.vi	08/09/2014 16:19:46	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\labbitmq_cluster.ctl	08/09/2014 16:19:42	28
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\String to status enum.vi	08/09/2014 16:19:42	23
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Acknowledge message.vi	15/09/2014 12:11:02	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Close.vi	15/09/2014 12:11:02	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\exchange_type_enum.ctl	15/09/2014 12:11:02	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Create consumer.vi	15/09/2014 12:11:02	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Connection\Close.vi	15/09/2014 12:11:02	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Receive message.vi	15/09/2014 12:11:02	46
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\miscctls.llb\LVPointTypeDef.ctl	20/12/2012 04:47:57	1
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Space Deletion.vi	19/12/2012 20:45:20	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\x Decode.vi	19/12/2012 20:45:20	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Split the String.vi	19/12/2012 20:45:20	30
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Type of a Substring.VI	19/12/2012 20:45:20	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Double Structure.vi	19/12/2012 20:45:20	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Backward Bracket Search.VI	19/12/2012 20:45:20	37
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Backward Decompose Number.VI	19/12/2012 20:45:20	28
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Bracket Deletion.vi	19/12/2012 20:45:22	30
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Function Decomposition.VI	19/12/2012 20:45:20	38
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Dot or Comma.vi	19/12/2012 20:45:20	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Operation Selection.VI	19/12/2012 20:45:20	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Plus Minus Correction.vi	19/12/2012 20:45:20	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Number Split.VI	19/12/2012 20:45:20	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Number Decomposition.VI	19/12/2012 20:45:20	33
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Left and Right Parts.vi	19/12/2012 20:45:20	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Bracket Balancing.VI	19/12/2012 20:45:20	140
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\String to Tree Preparation.vi	19/12/2012 20:45:20	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Atomic Check.VI	19/12/2012 20:45:20	35
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\String to Tree Inner Part.vi	19/12/2012 20:45:20	42
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\String to Tree.VI	19/12/2012 20:45:20	161
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Compiler RPN.VI	19/12/2012 20:45:20	54
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Compiler Tree Structure.VI	19/12/2012 20:45:20	85
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Parse Formula String.vi	19/12/2012 20:45:20	69
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\List of Variables.vi	19/12/2012 20:45:22	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Parse Formula Node.vi	19/12/2012 20:45:20	97
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\SpecialFunctions.llb\Incomplete Gamma Function.vi	19/12/2012 20:45:20	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\SpecialFunctions.llb\Gamma Function.vi	19/12/2012 20:45:22	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\SpecialFunctions.llb\(Incomplete) Gamma Function (obs).vi	19/12/2012 20:45:20	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\SpecialFunctions.llb\Cosine Integral.vi	19/12/2012 20:45:20	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\SpecialFunctions.llb\Sine Integral.vi	19/12/2012 20:45:20	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\function.llb\Spike Function.vi	19/12/2012 20:45:20	23
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\function.llb\Step Function.vi	19/12/2012 20:45:20	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\function.llb\Square Function.vi	19/12/2012 20:45:20	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Three Register Calculation.VI	19/12/2012 20:45:20	66
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Coded Eval Parsed Formula String.vi	19/12/2012 20:45:20	62
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Eval Parsed Formula Node.vi	19/12/2012 20:45:20	81
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\gmath\parser.llb\Eval Formula Node.vi	19/12/2012 20:45:20	68
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Extract key value pairs from XML.vi	08/09/2014 16:19:46	98
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Resolve Timestamp Format.vi	08/09/2014 16:19:40	56
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\xml\New.vi	19/12/2012 20:51:02	66
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\xml\Close Reference(Node).vi	19/12/2012 20:51:02	48
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get TDEnum from TD.vi	08/09/2014 16:19:38	26
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Type Descriptor__ogtk.ctl	18/08/2014 17:41:10	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Refnum Subtype Enum.ctl	08/09/2014 16:19:38	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Refnum Type Enum from TD.vi	08/09/2014 16:19:38	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Refnum Type Enum from Data.vi	08/09/2014 16:19:40	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Variant to Header Info.vi	08/09/2014 16:19:40	36
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Set Data Name.vi	08/09/2014 16:19:40	63
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Array Element TDEnum.vi	08/09/2014 16:19:40	33
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Element TD from Array TD.vi	08/09/2014 16:19:40	45
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Physical Units from TD.vi	08/09/2014 16:19:40	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get physical units.vi	08/09/2014 16:19:42	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Convert units to string.vi	08/09/2014 16:19:42	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Strings from Enum TD.vi	08/09/2014 16:19:40	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Strings from Enum.vi	08/09/2014 16:19:40	40
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Waveform Subtype Enum.ctl	08/09/2014 16:19:40	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\xml\Internal\Generate Error Cluster.vi	19/12/2012 20:51:02	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\xml\XPath\Get First Matched Node.vi	19/12/2012 21:46:48	168
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\NSQ observee cluster.ctl	08/09/2014 16:19:42	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Queue type enum.ctl	08/09/2014 16:19:42	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\observer_cluster_2.ctl	08/09/2014 16:19:42	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\Boolean to enabled state.vi	08/09/2014 16:19:40	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\libraryn.llb\List Directory and LLBs.vi	20/12/2012 01:10:11	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\libraryn.llb\Recursive File List.vi	20/12/2012 01:10:00	71
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\file.llb\Open File+.vi	20/12/2012 01:11:26	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\_oldvers\_oldvers.llb\compatReadText.vi	20/12/2012 01:11:23	34
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\file.llb\Read File+ (string).vi	20/12/2012 01:11:24	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Find First Error.vi	20/12/2012 01:11:07	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\file.llb\Close File+.vi	20/12/2012 01:11:07	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\827DCC2E9B92BEF942016E696461C639	18/08/2014 17:42:12	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\TagReturnType.ctl	20/12/2012 00:58:46	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Check Special Tags.vi	20/12/2012 00:58:49	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\whitespace.ctl	20/12/2012 00:58:47	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Set String Value.vi	20/12/2012 00:58:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	20/12/2012 00:58:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Error Code Database.vi	20/12/2012 00:58:49	36
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Find Tag.vi	20/12/2012 00:58:47	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Set Bold Text.vi	20/12/2012 00:58:45	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Format Message String.vi	20/12/2012 00:58:47	197
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\ErrWarn.ctl	20/12/2012 00:58:46	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\event_ctls.llb\eventvkey.ctl	20/12/2012 00:58:48	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	20/12/2012 00:58:48	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Details Display Dialog.vi	20/12/2012 00:58:48	290
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	20/12/2012 00:58:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\picture\picture.llb\Get Text Rect.vi	20/12/2012 03:17:13	32
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	20/12/2012 00:58:48	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	20/12/2012 00:58:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Get String Text Bounds.vi	20/12/2012 00:58:49	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	20/12/2012 00:58:49	580
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Three Button Dialog.vi	20/12/2012 00:58:47	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\GetHelpDir.vi	20/12/2012 00:58:46	4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\BuildHelpPath.vi	20/12/2012 00:58:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Not Found Dialog.vi	20/12/2012 00:58:48	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Trim Whitespace.vi	20/12/2012 03:02:07	32
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\General Error Handler CORE.vi	20/12/2012 00:58:46	335
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\General Error Handler.vi	20/12/2012 03:01:53	194
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\file.llb\Write To Spreadsheet File (string).vi	20/12/2012 03:01:53	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\error.llb\Simple Error Handler.vi	20/12/2012 03:01:53	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\front_panel_reference_cluster.ctl	08/09/2014 16:19:40	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\cursorutil.llb\Set Cursor (Icon Pict).vi	20/12/2012 03:02:08	68
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\cursorutil.llb\Set Cursor (Cursor ID).vi	20/12/2012 03:02:08	51
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\cursorutil.llb\Unset Busy.vi	20/12/2012 03:02:09	53
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\cursorutil.llb\Set Busy.vi	20/12/2012 03:02:09	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Specify observer.vi	08/09/2014 16:19:42	31
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Search 1D Array (String)__ogtk.vi	18/08/2014 17:41:48	22
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Sort 1D Array (I32)__ogtk.vi	18/08/2014 17:41:49	3
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Reorder 1D Array2 (String)__ogtk.vi	18/08/2014 17:41:48	33
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Remove Duplicates from 1D Array (String)__ogtk.vi	18/08/2014 17:41:48	16
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Delete Elements from 1D Array (String)__ogtk.vi	18/08/2014 17:41:46	61
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\string\string.llb\1D Array to String__ogtk.vi	18/08/2014 17:41:14	21
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Empty 1D Array (String)__ogtk.vi	18/08/2014 17:41:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\error\error.llb\Build Error Cluster__ogtk.vi	18/08/2014 17:41:03	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\1AE64589D058A11F09E90AAF8E12AFE5	18/08/2014 17:42:09	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\7B81288A8966C1DE6925B383767A55D9	18/08/2014 17:42:11	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\EEB441227DF158CCB9458F50EDDAFEB8	18/08/2014 17:42:13	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\183A6C14B09290143C207BDCD53796A3	18/08/2014 17:42:09	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\635CEF43810412CF4DBF92E4122CE919	18/08/2014 17:42:11	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\CFE5026278E73FDC395AB021964B5DCA	18/08/2014 17:42:12	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\FAE7CECC302C1CA00236481A335C8781	18/08/2014 17:42:14	6
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Array to Array of VData__ogtk.vi	18/08/2014 17:41:09	31
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Empty 1D Array (Variant)__ogtk.vi	18/08/2014 17:41:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Clean up settings configuration XML info.vi	08/09/2014 16:19:40	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Exchange\Close.vi	15/09/2014 12:11:02	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Exchange\Send message.vi	15/09/2014 12:11:02	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\observer_cluster.ctl	08/09/2014 16:19:42	32
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Parameter cluster.ctl	08/09/2014 16:19:42	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Add or replace parameter.vi	08/09/2014 16:19:42	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set reply-by.vi	08/09/2014 16:19:44	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Set settings.vi	08/09/2014 16:19:46	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get command.vi	08/09/2014 16:19:42	37
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\GenericMessage\Set generic command.vi	08/09/2014 16:19:42	53
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Look up parameter.vi	08/09/2014 16:19:42	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Get state.vi	08/09/2014 16:19:46	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get in-reply-to.vi	08/09/2014 16:19:44	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get sender ID.vi	08/09/2014 16:19:44	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set triggered-by.vi	08/09/2014 16:19:44	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Set state.vi	08/09/2014 16:19:46	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Set component name.vi	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\GenericMessage\Get generic command.vi	08/09/2014 16:19:44	58
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get timestamp.vi	08/09/2014 16:19:44	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get command as string.vi	08/09/2014 16:19:44	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StartMessage\Get run mode.vi	08/09/2014 16:19:44	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set timestamp.vi	08/09/2014 16:19:44	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set sender ID.vi	08/09/2014 16:19:44	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set recipient ID.vi	08/09/2014 16:19:44	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get message ID.vi	08/09/2014 16:19:44	2
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StartMessage\Set run mode.vi	08/09/2014 16:19:46	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set in-reply-to.vi	08/09/2014 16:19:44	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set status.vi	08/09/2014 16:19:42	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Create from message string.vi	08/09/2014 16:19:46	48
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get reply-by.vi	08/09/2014 16:19:44	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get RMQ ack requested.vi	08/09/2014 16:19:44	4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get triggered-by.vi	08/09/2014 16:19:44	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Comparison mode enum.ctl	08/09/2014 16:19:44	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Value cluster.ctl	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\Replace comma by dot.vi	08/09/2014 16:19:40	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\base64_fast_decode.vi	08/09/2014 16:19:38	110
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\Strip path.vi	08/09/2014 16:19:40	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\Set data.vi	08/09/2014 16:19:44	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	20/12/2012 01:09:43	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\lvfile.llb\LVFileType.ctl	20/12/2012 01:09:44	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\lvfile.llb\Get File Type.vi	20/12/2012 01:09:43	91
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\LVLibp\Get Exported File List.vi	19/12/2012 19:03:12	30
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	20/12/2012 03:02:46	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Read licences.vi	08/09/2014 16:19:40	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Save licences.vi	08/09/2014 16:19:40	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Modify licences.vi	08/09/2014 16:19:40	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\zip\Zip inflate.vi	08/09/2014 16:19:40	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\zip\Zip deflate.vi	08/09/2014 16:19:40	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\base64_fast_encode.vi	08/09/2014 16:19:40	112
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Get settings.vi	08/09/2014 16:19:42	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Look up setting.vi	08/09/2014 16:19:42	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Extract attribute values.vi	08/09/2014 16:19:46	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Create from command.vi	08/09/2014 16:19:46	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\825EE28D159D7D4530ACCD1BA07DC667	18/08/2014 17:42:12	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\18CF8DEACE058CBBA98677996E5BB68F	18/08/2014 17:42:09	28
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Conditional Auto-Indexing Tunnel (String)__ogtk.vi	18/08/2014 17:41:46	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\FFB65EE16C3DB2BF239B216432105F52	18/08/2014 17:42:14	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\3F3489241057A4BBFF01DE53A3C0D3F7	18/08/2014 17:42:10	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\1CF8A5C695545EDC7FE5DB2BE655BFE4	18/08/2014 17:42:09	42
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\29C9DAA942BC5E0B7AB8F259B4F11C11	18/08/2014 17:42:10	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\_oldvers\_oldvers.llb\LV70DateRecToTimeStamp.vi	20/12/2012 01:11:44	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\0447C34EE3100F8D5DCF2C621476D229	18/08/2014 17:42:08	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\AF1B129D19B473CA26077C080791F7E9	18/08/2014 17:42:12	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\CC44AD91BA55028CB2EC25FEDAA0662A	18/08/2014 17:42:12	10
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get PString__ogtk.vi	18/08/2014 17:41:10	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\F799083E828EF05FB566B571A7BB6A2E	18/08/2014 17:42:13	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\ECA9CC02894B530281D86D99DC2579A5	18/08/2014 17:42:13	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\7F6530AD367840F80E7372CAA9347987	18/08/2014 17:42:11	104
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\FAB0FCF02C103A415945F996710BCDDF	18/08/2014 17:42:13	46
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\string\string.llb\Trim Whitespace (String)__ogtk.vi	18/08/2014 17:41:15	83
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Index 1D Array Elements (String)__ogtk.vi	18/08/2014 17:41:47	36
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\array\array.llb\Filter 1D Array (String)__ogtk.vi	18/08/2014 17:41:47	2
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Array Element TD__ogtk.vi	18/08/2014 17:41:09	39
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Waveform Type Enum from TD__ogtk.vi	18/08/2014 17:41:10	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Waveform Type Enum from Data.vi	08/09/2014 16:19:42	30
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Convert waveform variant to data.vi	08/09/2014 16:19:42	8
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Variant Attributes__ogtk.vi	18/08/2014 17:41:10	11
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Last PString__ogtk.vi	18/08/2014 17:41:10	16
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Parse String with TDs__ogtk.vi	18/08/2014 17:41:10	16
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Type Descriptor Header__ogtk.ctl	18/08/2014 17:41:10	10
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Header from TD__ogtk.vi	18/08/2014 17:41:10	14
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Variant to Header Info__ogtk.vi	18/08/2014 17:41:10	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Array Dimension.vi	08/09/2014 16:19:42	36
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Reshape Array to 1D VArray.vi	08/09/2014 16:19:42	55
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get TDEnum from Data.vi	08/09/2014 16:19:42	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Strip Units.vi	08/09/2014 16:19:42	35
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Convert variant to data.vi	08/09/2014 16:19:42	42
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Format Variant Into String.vi	08/09/2014 16:19:42	72
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get TDEnum from Data__ogtk.vi	18/08/2014 17:41:10	18
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Array Element TDEnum__ogtk.vi	18/08/2014 17:41:09	22
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Array Size(s)__ogtk.vi	18/08/2014 17:41:09	27
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Strip Units__ogtk.vi	18/08/2014 17:41:10	19
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Set Data Name__ogtk.vi	18/08/2014 17:41:10	54
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Array of VData to VCluster__ogtk.vi	18/08/2014 17:41:09	41
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Data Name from TD__ogtk.vi	18/08/2014 17:41:10	17
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Data Name__ogtk.vi	18/08/2014 17:41:10	44
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Reshape Array to 1D VArray__ogtk.vi	18/08/2014 17:41:10	44
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Strings from Enum TD__ogtk.vi	18/08/2014 17:41:10	10
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Strings from Enum__ogtk.vi	18/08/2014 17:41:10	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\5725F0D66EC25AC70FA2BC927EFE9639	18/08/2014 17:42:11	59
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Set Enum String Value__ogtk.vi	18/08/2014 17:41:10	35
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\49E25771A6D7FE46E41FFF8F95331682	18/08/2014 17:42:10	23
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Element TD from Array TD__ogtk.vi	18/08/2014 17:41:10	36
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Split Cluster TD__ogtk.vi	18/08/2014 17:41:10	39
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Cluster to Array of VData__ogtk.vi	18/08/2014 17:41:09	33
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Array of VData to VArray__ogtk.vi	18/08/2014 17:41:09	60
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Default Data from TD__ogtk.vi	18/08/2014 17:41:10	52
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Array Element Default Data__ogtk.vi	18/08/2014 17:41:09	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\19295456E9C3787735B544103BF8B6A1	18/08/2014 17:42:09	28
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\7334BA3E4D17CCB40DEADE2A7533D47C	18/08/2014 17:42:11	105
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Cluster Elements TDs__ogtk.vi	18/08/2014 17:41:09	33
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\lvdata\lvdata.llb\Get Cluster Element Names__ogtk.vi	18/08/2014 17:41:09	45
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\71A80A7B8E73AAC85779E582AE1BEC41	18/08/2014 17:42:11	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\8482768A0246620018E518668720CC18	18/08/2014 17:42:12	702
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\Easy Generate XML__JKI EasyXML.vi	18/08/2014 17:42:13	69
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\245A9BE04D02CB35AC98ABBD3F6F0A97	18/08/2014 17:42:10	13
+C:\Program Files\National Instruments\LabVIEW 2012\user.lib\_OpenG.lib\string\string.llb\Trim Whitespace (String Array)__ogtk.vi	18/08/2014 17:41:15	45
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\4872D633AE697C77C9A8C4BAA651714E	18/08/2014 17:42:10	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\08343BD42A76E5174CC17B0A46A4E892	18/08/2014 17:42:09	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Utility\xml.llb\FindCloseTagByName.vi	20/12/2012 01:10:20	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\0FB2F3111877F4C467431E0A48B294A7	18/08/2014 17:42:09	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\4DF6FE8CF8D539A78B263026FEAB4FEF	18/08/2014 17:42:10	30
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\B784A0CA8602FFCF42BD6BF3538D103F	18/08/2014 17:42:12	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\BE28EB57592693D3FB5C87E0245621B7	18/08/2014 17:42:12	45
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\DDA66B1A243225F8C7DEC80211BCE84D	18/08/2014 17:42:13	126
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\0FB02B368E167E9D3D84FEBADCBA5E24	18/08/2014 17:42:09	54
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\CAEDCE53E5A5DDABE85F91088296A0E8	18/08/2014 17:42:12	92
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\80F2F4187F1C02C9566D295AAD2B4B46	18/08/2014 17:42:12	79
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\7F913CA0B7E90B138B4AC7553D420DE2	18/08/2014 17:42:11	78
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\29659B4B62178E338FCEBF3BAB2DC858	18/08/2014 17:42:10	84
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\498CC367B3BCAEE7B9828EF3EC9FF1B6	18/08/2014 17:42:10	77
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\686C45C435F7D6D638AFE3BF1019BA0E	18/08/2014 17:42:11	94
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\A5AE8EA5BC9E882D19C00E2FAEC17B15	18/08/2014 17:42:12	776
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\Easy Parse XML__JKI EasyXML.vi	18/08/2014 17:42:13	66
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get status.vi	08/09/2014 16:19:42	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\addons\_JKI Toolkits\EasyXML\JKI_EasyXML.llb\Easy Read XML File__JKI EasyXML.vi	18/08/2014 17:42:13	53
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Connection\connection_parameters_cluster.ctl	15/09/2014 12:11:02	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Connection\Create connection.vi	15/09/2014 12:11:02	42
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\Set dotnet reference.vi	15/09/2014 12:11:02	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Connection\Create channel.vi	15/09/2014 12:11:02	44
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Exchange\Set properties.vi	15/09/2014 12:11:02	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\Create exchange.vi	15/09/2014 12:11:02	27
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Set queueDeclareOk reference.vi	15/09/2014 12:11:02	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\Create queue.vi	15/09/2014 12:11:02	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Exchange\Get exchange name.vi	15/09/2014 12:11:02	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Add binding.vi	15/09/2014 12:11:02	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\component_specification_cluster.ctl	08/09/2014 16:19:42	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\observers_cluster.ctl	08/09/2014 16:19:42	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\configuration_cluster.ctl	08/09/2014 16:19:42	34
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set up events.vi	08/09/2014 16:19:50	32
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get ID.vi	08/09/2014 16:19:42	23
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Clear log.vi	08/09/2014 16:19:52	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set log reference.vi	08/09/2014 16:19:48	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Append log.vi	08/09/2014 16:19:52	28
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get observer status.vi	08/09/2014 16:19:46	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get internal state string.vi	08/09/2014 16:19:48	40
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set relay start stop to observers.vi	08/09/2014 16:19:48	62
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set VI reference.vi	08/09/2014 16:19:48	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set configure at initialise.vi	08/09/2014 16:19:48	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get license required.vi	08/09/2014 16:19:48	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get Murmex event ref.vi	08/09/2014 16:19:48	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get time-out.vi	08/09/2014 16:19:48	70
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set ID.vi	08/09/2014 16:19:48	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set up ID.vi	08/09/2014 16:19:48	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Log message.vi	28/05/2015 16:33:42	176
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get configuration path.vi	08/09/2014 16:19:46	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic configuration writer.vi	08/09/2014 16:19:50	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic configuration reader.vi	08/09/2014 16:19:50	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic configuration checker.vi	08/09/2014 16:19:48	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get observers.vi	08/09/2014 16:19:48	36
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Acknowledge message on RabbitMQ.vi	28/05/2015 16:33:42	71
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Obtain internal message queue.vi	08/09/2014 16:19:48	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Receive.vi	08/09/2014 16:19:50	124
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set status.vi	08/09/2014 16:19:46	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get relay start stop to observers.vi	08/09/2014 16:19:48	66
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Reset status observers.vi	08/09/2014 16:19:44	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set up message broker.vi	08/09/2014 16:19:42	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Move screen position.vi	08/09/2014 16:19:42	14
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set up window title.vi	08/09/2014 16:19:46	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set up pane origin.vi	08/09/2014 16:19:42	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set cursor to busy.vi	08/09/2014 16:19:48	7
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Perform mapping.vi	08/09/2014 16:19:46	51
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get status.vi	08/09/2014 16:19:46	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Send message internally.vi	07/10/2014 08:49:56	152
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Send.vi	28/05/2015 16:33:42	267
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Check licence.vi	08/09/2014 16:19:52	27
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Update target.vi	08/09/2014 16:19:46	82
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Talk to observers.vi	08/09/2014 16:19:48	51
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set observer status.vi	08/09/2014 16:19:46	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set observers.vi	08/09/2014 16:19:48	47
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\List stored host names.vi	08/09/2014 16:19:46	28
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get last message.vi	08/09/2014 16:19:48	66
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Log error message.vi	08/09/2014 16:19:48	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Handle messages.vi	28/05/2015 16:33:42	514
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get VI reference.vi	08/09/2014 16:19:48	5
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\run_time cluster.ctl	03/06/2015 12:27:44	24
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\setting cluster.ctl	03/06/2015 12:27:44	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Queue\Acknowledge last message.vi	15/09/2014 12:11:02	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\LabbitMQ\Channel\Close.vi	15/09/2014 12:11:02	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get debug.vi	08/09/2014 16:19:44	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Set debug.vi	08/09/2014 16:19:44	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Has parameters.vi	08/09/2014 16:19:44	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Get recipient ID.vi	08/09/2014 16:19:44	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Message class.ctl	08/09/2014 16:19:44	9
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Build XML.vi	28/05/2015 16:33:42	105
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\GenericMessage\GenericMessage class.ctl	08/09/2014 16:19:44	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ConfigureMessage\ConfigureMessage class.ctl	08/09/2014 16:19:44	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\FetchMessage class.ctl	08/09/2014 16:19:44	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\Build XML.vi	08/09/2014 16:19:44	43
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\Get data.vi	08/09/2014 16:19:44	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StopMessage\StopMessage class.ctl	08/09/2014 16:19:44	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\StartMessage\StartMessage class.ctl	08/09/2014 16:19:44	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ProceedMessage\ProceedMessage class.ctl	08/09/2014 16:19:46	4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\InformMessage class.ctl	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Get component name.vi	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Get computer id.vi	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Get license required.vi	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Set license required.vi	08/09/2014 16:19:46	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InformMessage\Set computer id.vi	08/09/2014 16:19:46	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InspectMessage\InspectMessage class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\UpdateMessage class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\UpdateMessage\Look up setting values with attribute.vi	08/09/2014 16:19:46	8
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\AcknowledgeMessage\AcknowledgeMessage class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\ResetMessage\ResetMessatge class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\InitialiseMessage\InitialiseMessage class.ctl	08/09/2014 16:19:46	5
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Is equal.vi	08/09/2014 16:19:46	12
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\FetchMessage\Parse XML.vi	08/09/2014 16:19:44	56
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get_initialised_flag.vi	08/09/2014 16:19:48	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Is started.vi	08/09/2014 16:19:48	70
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set time-out.vi	08/09/2014 16:19:48	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set write log to disk.vi	08/09/2014 16:19:48	17
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set license required.vi	08/09/2014 16:19:48	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get settings path.vi	08/09/2014 16:19:48	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get data compression.vi	08/09/2014 16:19:48	4
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Set data compression.vi	08/09/2014 16:19:48	6
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get front panel references.vi	08/09/2014 16:19:48	3
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get configuration chain.vi	08/09/2014 16:19:48	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Get settings chain.vi	08/09/2014 16:19:48	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Acknowledge.vi	08/09/2014 16:19:48	25
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Fetch.vi	08/09/2014 16:19:50	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Listen to NSQ.vi	08/09/2014 16:19:50	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Handle time-out.vi	08/09/2014 16:19:50	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Listen to RabbitMQ.vi	08/09/2014 16:19:50	44
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Inspect.vi	07/10/2014 08:49:58	150
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Proceed.vi	08/09/2014 16:19:50	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Reset.vi	08/09/2014 16:19:50	41
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Start.vi	08/09/2014 16:19:50	90
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Stop.vi	08/09/2014 16:19:50	67
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Terminate.vi	08/09/2014 16:19:50	81
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Update.vi	08/09/2014 16:19:50	103
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Check parameters string.vi	08/09/2014 16:19:50	18
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Filter messages.vi	08/09/2014 16:19:50	16
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Process command line arguments.vi	08/09/2014 16:19:50	31
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Prune internal message queue.vi	08/09/2014 16:19:50	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Reply if required.vi	28/05/2015 16:33:42	228
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Send data.vi	08/09/2014 16:19:50	156
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Send terminate on error.vi	08/09/2014 16:19:50	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Check if configuration files exist.vi	08/09/2014 16:19:50	21
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Read configuration.vi	24/09/2014 17:13:50	52
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Write configuration.vi	08/09/2014 16:19:50	36
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Initialise.vi	28/05/2015 16:33:41	271
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic settings reader.vi	08/09/2014 16:19:52	22
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic settings writer.vi	08/09/2014 16:19:52	24
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Populate settings combo.vi	08/09/2014 16:19:52	19
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Read settings.vi	08/09/2014 16:19:52	26
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Write settings.vi	08/09/2014 16:19:52	23
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\message_cluster.ctl	08/09/2014 16:19:52	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Murmex class.ctl	08/09/2014 16:19:52	11
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Get Waveform Type Enum from TD.vi	08/09/2014 16:19:52	27
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\variant conversion\Trim Whitespace Lookup Table.vi	08/09/2014 16:19:52	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Close executable.vi	08/09/2014 16:19:52	15
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\create_random_string.vi	08/09/2014 16:19:52	20
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Disable GUI elements.vi	08/09/2014 16:19:52	10
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Error cluster to XML string.vi	08/09/2014 16:19:52	29
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\dependencies\Search file.vi	08/09/2014 16:19:52	13
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Main.vi	08/09/2014 16:19:52	23
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Get camera parameter.vi	03/06/2015 12:27:44	26
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Get configuration chain.vi	03/06/2015 12:27:44	63
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Get if acquring.vi	03/06/2015 12:27:44	36
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Get run time chain.vi	03/06/2015 12:27:44	29
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Get settings chain.vi	03/06/2015 12:27:44	56
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Configure.vi	03/06/2015 12:27:44	157
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Generic command handler.vi	03/06/2015 12:27:44	95
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Initialise.vi	03/06/2015 12:27:44	306
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Proceed.vi	03/06/2015 12:27:20	105
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Reset.vi	03/06/2015 12:27:44	67
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Start.vi	03/06/2015 12:21:05	166
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Stop.vi	03/06/2015 12:27:44	98
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Terminate.vi	03/06/2015 12:27:44	116
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Update.vi	03/06/2015 12:27:44	145
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Check if configuration files exist.vi	03/06/2015 12:27:43	51
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Read configuration.vi	03/06/2015 12:27:44	81
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Write configuration.vi	03/06/2015 12:27:44	65
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\binning.ctl	03/06/2015 12:27:44	7
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Display title.ctl	03/06/2015 12:27:44	8
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\focus or acquire.ctl	03/06/2015 12:27:44	5
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\started acquisition.ctl	03/06/2015 12:27:44	2
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\ref path.ctl	03/06/2015 12:15:21	2
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\2x2 binning.vi	03/06/2015 12:27:44	27
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\acquisition.vi	03/06/2015 12:24:06	17
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\call to save.vi	03/06/2015 12:15:42	23
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\live open.vi	03/06/2015 12:27:44	19
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\obtain image queue.vi	03/06/2015 12:27:44	12
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\one second acquisition loop.vi	03/06/2015 12:27:44	42
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\out of time.vi	03/06/2015 12:24:03	18
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\save to drive.vi	03/06/2015 12:27:44	10
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Set camera parameter.vi	03/06/2015 12:27:44	33
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\IMAQ image.ctl	03/06/2015 12:27:44	4
+C:\DATA\Programming\Giorgio\DAQCascade512II\DAQCascade512II\Main.vi	03/06/2015 14:46:46	110
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Message\Parse XML.vi	08/09/2014 16:19:46	39
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Inform.vi	28/05/2015 16:33:42	202
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Configure.vi	24/09/2014 17:59:44	119
+C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\Distrio\Murmex\Murmex\Generic command handler.vi	08/09/2014 16:19:50	74
+
+[Output File Version]
+Cascade512II.exe	1.0.0.0
+
+[Output Files]
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\Cascade512II.exe	03/06/2015 14:52:33
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\Cascade512II.aliases	03/06/2015 14:48:25
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\Cascade512II.ini	03/06/2015 14:52:30
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\LabViewLayer.dll	25/07/2008 10:20:52
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\DAQCascade512II.aliases	03/06/2015 14:48:25
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\Cascade512II.ico	26/05/2015 15:28:14
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\RabbitMQ.Client.dll	11/08/2014 12:39:24
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\lvanlys.dll	19/12/2012 13:55:12
+C:\DATA\Programming\Giorgio\builds\DAQCascade512II\Cascade512II\data\lvzlib.dll	07/08/2014 18:08:34
+
+03/06/2015 14:52:33
