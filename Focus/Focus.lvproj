@@ -11,9 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="PI drivers" Type="Folder" URL="../PI drivers">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="PI drivers" Type="Folder"/>
 		<Item Name="focus.lvclass" Type="LVClass" URL="../Focus/focus.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -344,7 +342,6 @@
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
@@ -474,7 +471,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
@@ -533,7 +529,6 @@
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
-				<Item Name="Write JPEG File(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File(6_1).vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -542,20 +537,89 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="Analog Functions.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Functions.vi"/>
+			<Item Name="Analog Receive String.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Analog control.llb/Analog Receive String.vi"/>
+			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Assign values from string to axes.vi"/>
+			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
+			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
+			<Item Name="Available DLLs.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Available DLLs.ctl"/>
+			<Item Name="Available interfaces.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
+			<Item Name="Build command substring.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
+			<Item Name="Build query command substring.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
+			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
+			<Item Name="Controller names.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
+			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Cut out additional spaces.vi"/>
+			<Item Name="Define connected axes.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="ERR?.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
+			<Item Name="GCSTranslateError.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/GCSTranslateError.vi"/>
+			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
+			<Item Name="GCSTranslator.dll" Type="Document" URL="../../StageSPIM/PI drivers/Low Level/GCSTranslator.dll"/>
+			<Item Name="Get all axes.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Get all axes.vi"/>
+			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Get arrays without blanks.vi"/>
+			<Item Name="Get lines from string.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Get lines from string.vi"/>
+			<Item Name="Global DaisyChain.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Global DaisyChain.vi"/>
+			<Item Name="Global1.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Global1.vi"/>
+			<Item Name="Global2 (Array).vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/Global2 (Array).vi"/>
+			<Item Name="Initialize Global2.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/Initialize Global2.vi"/>
+			<Item Name="MOV.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
+			<Item Name="MOV?.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/MOV?.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PI Receive String.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/PI Receive String.vi"/>
+			<Item Name="PI Send String.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/PI Send String.vi"/>
+			<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
+			<Item Name="Return space.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/Return space.vi"/>
+			<Item Name="SAI?.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/General command.llb/SAI?.vi"/>
+			<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Support.llb/String with ASCII code conversion.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="winmm.dll" Type="Document" URL="winmm.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			<Item Name="Termination character.ctl" Type="VI" URL="../../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
+		</Item>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Foxus" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{27E32ABA-E635-4225-B38D-633825C41727}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{71D0A430-89B8-4764-BCC4-39533CBA8151}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D21FF1D1-D264-4A53-B96B-0D1FEF3011B7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Foxus</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8E3AE071-C6D1-4205-B99D-06D260E5B723}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Focus.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME/Focus.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/DELL/Documents/Distrio/executables/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/focus.lvclass/images.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6786A6DA-C781-47EF-BA91-6BB039FA815D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/focus.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Foxus</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Foxus</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LENS</Property>
+				<Property Name="TgtF_productName" Type="Str">Foxus</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7DB83B1F-66C9-48EC-979E-BA28AB227379}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Focus.exe</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

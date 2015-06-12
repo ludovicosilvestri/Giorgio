@@ -541,6 +541,7 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="close shutter.vi" Type="VI" URL="../../dependencies/utilities/close shutter.vi"/>
+			<Item Name="Control 4.ctl" Type="VI" URL="../InVivo_ImagingModeSPIM/Control 4.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -563,21 +564,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmode</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/SPIM</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C364C237-766F-4E02-AEB4-BFBEC1B69F72}</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImagingModeSPIM.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmode/NI_AB_PROJECTNAME.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/SPIM/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Giovanni Giorgio/Documents/Distrio/executables/imagingmode/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/SPIM/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/InVivo_ImagingModeSPIM.lvclass/icon/clownfish.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88530469-2EA3-47DC-92F5-4B630B96BD07}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05409AD8-1872-42BD-8B58-A630E8FA25D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/InVivo_ImagingModeSPIM.lvclass/Main.vi</Property>
@@ -586,12 +586,12 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">LENS</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ImagingModeSPIM, adjusted for Cascade camera</Property>
 				<Property Name="TgtF_fileVersion.build" Type="Int">3</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">ImagingModeSPIM</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 LENS</Property>
-				<Property Name="TgtF_productName" Type="Str">ImagingModeSPIM</Property>
+				<Property Name="TgtF_productName" Type="Str">In vivo ImagingModeSPIM</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9306964D-D931-4E62-A1AA-BF94D13DAFB8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ImagingModeSPIM.exe</Property>
 			</Item>
