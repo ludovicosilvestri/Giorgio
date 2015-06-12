@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -17,7 +18,7 @@
 		<Item Name="Invivo_ImageStack.lvclass" Type="LVClass" URL="../ImageStack/Invivo_ImageStack.lvclass"/>
 		<Item Name="Murmex.lvlib" Type="Library" URL="/&lt;vilib&gt;/Distrio/Murmex/Murmex.lvlib"/>
 		<Item Name="Test.vi" Type="VI" URL="../ImageStack/Test.vi"/>
-		<Item Name="Tomo.lvclass" Type="LVClass" URL="../../Tomo/Tomo/Tomo.lvclass"/>
+		<Item Name="Invivo_Tomo.lvclass" Type="LVClass" URL="../../Tomo/Tomo/Invivo_Tomo.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
